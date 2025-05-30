@@ -1,0 +1,43 @@
+<<<<<<< HEAD
+=======
+//configurar ssh
+https://github.com/frank-gp/doc/blob/main/tools/linux/ssh-cpanel/ssh-basic.md
+// configuraciones git 
+git config --global user.name "John Doe"
+git config --global user.email johndoe@example.com
+git add origin "link de repertorio"
+git branch -m main //para cambiar nombre
+git status //vee los cambios que tenemos para enviar 
+git add archivo especifico o . para todo //es para agregar al archivo de forma provisoria
+git commit -m "descriptivo" para subir el archivo nuevo de forma defenitiva
+git push -u origin main //se especifica la rama para enviar el cambio.
+siempre al empezar a trabajar hacer un git pull
+
+desde el 2021 nueva medida de seguridad accestoken 
+perfil - settings - developer setting - token (classic para todos los repos o gradient para especificos)
+//en gitbash
+git config user.password eltokengenerado
+
+//para clonar repositorios
+git clone urldelrepositorio
+si alguien hizo cambios hacer
+git pull apodo ramacreada //master si no hay rama
+
+¿Qué son las branches? ¿Cómo crearlas y manejarlas?
+Una ventaja de trabajar con Git es que podemos gestionar 
+diferentes versiones de un mismo proyecto sin alterar la versión principal que tengamos. 
+Esto nos permite realizar modificaciones y no correr el riesgo de, 
+si es que tenemos una versión estable funcional, perderla o que deje de funcionar por cambios que hayamos realizados, 
+permitiéndonos volver hacia atrás cuando queramos.
+
+Para realizar este manejo de versiones Git parte de una rama principal llamada 
+Master o Main de la cual podemos desprender otras que conformen una nueva línea de desarrollo.
+
+//crear ramas y manejarlas
+git branch //para ver las ramas
+git branch nombreramanueva //para crear nueva rama
+git branch -m nombredelarama nombrenuevo //editar nombre de la rama 
+git checkout nombreramalaquepasar //cambiar rama
+git branch -d nombrerama //para eliminar rama primero es salir de esa rama 
+luego agregas el comit en la que prefieras
+>>>>>>> rama1
