@@ -1,0 +1,7 @@
+git add origin "link de repertorio"
+git branch -m main //para cambiar nombre
+git status //vee los cambios que tenemos para enviar 
+git add es para agregar al archivo de forma provisoria
+git commit -m "descriptivo" para subir el archivo nuevo de forma defenitiva
+git push -u origin main //se especifica la rama para enviar el cambio.
+siempre al empezar a trabajar hacer un git pull
