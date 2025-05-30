@@ -6,7 +6,7 @@ git config --global user.email johndoe@example.com
 git add origin "link de repertorio"
 git branch -m main //para cambiar nombre
 git status //vee los cambios que tenemos para enviar 
-git add es para agregar al archivo de forma provisoria
+git add archivo especifico o . para todo //es para agregar al archivo de forma provisoria
 git commit -m "descriptivo" para subir el archivo nuevo de forma defenitiva
 git push -u origin main //se especifica la rama para enviar el cambio.
 siempre al empezar a trabajar hacer un git pull
@@ -15,3 +15,8 @@ desde el 2021 nueva medida de seguridad accestoken
 perfil - settings - developer setting - token (classic para todos los repos o gradient para especificos)
 //en gitbash
 git config user.password eltokengenerado
+
+//para clonar repositorios
+git clone urldelrepositorio
+si alguien hizo cambios hacer
+git pull apodo ramacreada //master si no hay rama
