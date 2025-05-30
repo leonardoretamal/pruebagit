@@ -20,3 +20,21 @@ git config user.password eltokengenerado
 git clone urldelrepositorio
 si alguien hizo cambios hacer
 git pull apodo ramacreada //master si no hay rama
+
+¿Qué son las branches? ¿Cómo crearlas y manejarlas?
+Una ventaja de trabajar con Git es que podemos gestionar 
+diferentes versiones de un mismo proyecto sin alterar la versión principal que tengamos. 
+Esto nos permite realizar modificaciones y no correr el riesgo de, 
+si es que tenemos una versión estable funcional, perderla o que deje de funcionar por cambios que hayamos realizados, 
+permitiéndonos volver hacia atrás cuando queramos.
+
+Para realizar este manejo de versiones Git parte de una rama principal llamada 
+Master o Main de la cual podemos desprender otras que conformen una nueva línea de desarrollo.
+
+//crear ramas y manejarlas
+git branch //para ver las ramas
+git branch nombreramanueva //para crear nueva rama
+git branch -m nombredelarama nombrenuevo //editar nombre de la rama 
+git checkout nombreramalaquepasar //cambiar rama
+git branch -d nombrerama //para eliminar rama primero es salir de esa rama 
+luego agregas el comit en la que prefieras
