@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 //configurar ssh
 https://github.com/frank-gp/doc/blob/main/tools/linux/ssh-cpanel/ssh-basic.md
 // configuraciones git 
@@ -40,4 +38,13 @@ git branch -m nombredelarama nombrenuevo //editar nombre de la rama
 git checkout nombreramalaquepasar //cambiar rama
 git branch -d nombrerama //para eliminar rama primero es salir de esa rama 
 luego agregas el comit en la que prefieras
->>>>>>> rama1
+
+GIT DIFF + MERGE
+Cuando trabajamos con ramas y diferentes versiones llega un momento en que tenemos que 
+conocer las diferencias entre cada una de ellas como así también unificarlas a la principal cuando 
+corroboramos su correspondiente funcionamiento por separado. Para realizar todo esto utilizamos los 
+comandos Git DIFF y MERGE.
+
+//para mergear y ver diferencias entre ramas
+git diff nombrerama nombreramaacomparar //compara ramas presiona q para salir
+git merge ramaconcambio ramasincambio //debes hacerlo estando en la rama desactualizada junta lo que tienes en los proyectos
